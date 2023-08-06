@@ -1,0 +1,15 @@
+
+.visible {
+  visibility: visible !important;
+}
+.invisible {
+  visibility: hidden !important;
+}
+
+
+.element {
+  @include invisible(visible);
+}
+.element {
+  @include invisible(hidden);
+}
